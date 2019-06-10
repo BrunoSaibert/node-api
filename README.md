@@ -1,2 +1,2 @@
 # node-api
-Curso NodeJS da Rocketseat 
+Curso de NodeJS da Rocketseat 
