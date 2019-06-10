@@ -9,9 +9,8 @@ app.use(express.json());
 app.use(cors());
 
 //Inniciando o DB
-// const MONGO_URL = 'mongodb://192.168.99.100:27017/nodeapi';
 mongoose.connect(
-  MONGO_URL,
+  'mongodb://192.168.99.100:27017/nodeapi',
   { useNewUrlParser: true }
 );
 requireDir('./src/models/');
